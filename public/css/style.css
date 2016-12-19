@@ -1,0 +1,178 @@
+.form-control {
+	border-radius: 0px;
+}
+.notesCont {
+	margin-top: 50px;
+}
+.m-b {
+    margin-bottom: 15px;
+}
+.notes {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    max-height: 185px;
+    overflow-y: scroll;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.notes small {
+	color: #333;
+    font-style: italic;
+}
+.notes hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: rgba(0,0,0,0.7);
+}
+.noteText {
+	margin-bottom: 10px;
+    z-index: auto;
+    position: relative;
+    line-height: 20px;
+    font-size: 14px;
+    transition: none;
+    background: transparent !important;
+}
+.datepicker {
+    cursor: pointer;
+}
+.popover{
+    max-width: 100%; /* Max Width of the popover (depending on the container!) */
+}
+.pop-div, .popover-content {
+    height: 200px;
+    overflow-y: scroll;
+}
+i.fa-check {
+    cursor: pointer;
+}
+.completeCallback {
+    text-align: center;
+}
+.callbackCount {
+    border-radius: 1000px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    float: right;
+    line-height: 25px;
+    width: 25px;
+    height: 25px;
+    margin-top: 5px;
+}
+/*input[type=checkbox] {
+    -webkit-appearance: none !important;
+    width: 18px !important;
+    height: 18px !important;
+    font-size: 18px;
+    border-radius: 5px !important;
+    border: 1px solid #333 !important;
+    position: absolute !important;
+    margin-top: 4px\9 !important;
+    margin-left: -25px !important;
+}
+input[type='checkbox']:checked {
+    background: #abd !important;
+}*/
+.checkbox-inline, .radio-inline {
+    margin-bottom: 15px;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+     -khtml-user-select: none; /* Konqueror */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  not supported by any browser */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+/*    .checkbox-inline, .radio-inline {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+}*/
+
+}
+/*!
+ * Bootstrap v2.3.0-j4
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world by @mdo and @fat, extended by @ArnoldDaniels.
+ */
+.clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+.hide-text{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0;}
+.input-block-level{display:block;width:100%;min-height:30px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.btn-file{overflow:hidden;position:relative;vertical-align:middle;}.btn-file>input{position:absolute;top:0;right:0;margin:0;opacity:0;filter:alpha(opacity=0);transform:translate(-300px, 0) scale(4);font-size:23px;direction:ltr;cursor:pointer;}
+.fileupload .uneditable-input{display:inline-block;margin-bottom:0px;vertical-align:middle;cursor:text;background: #fff;}
+.fileupload .thumbnail{overflow:hidden;display:inline-block;margin-bottom:5px;vertical-align:middle;text-align:center;}.fileupload .thumbnail>img{display:inline-block;vertical-align:middle;max-height:100%;}
+.fileupload .btn{vertical-align:middle; line-height: 21px; margin-left: -5px; }
+.fileupload-exists .fileupload-new,.fileupload-new .fileupload-exists{display:none;}
+.fileupload-inline .fileupload-controls{display:inline;}
+.fileupload-new .input-append .btn-file{-webkit-border-radius:0 2px 2px 0;-moz-border-radius:0 2px 2px 0;border-radius:0 2px 2px 0;}
+.thumbnail-borderless .thumbnail{border:none;padding:0;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
+.fileupload-new.thumbnail-borderless .thumbnail{border:1px solid #ddd;}
+.control-group.warning .fileupload .uneditable-input{color:#a47e3c;border-color:#a47e3c;}
+.control-group.warning .fileupload .fileupload-preview{color:#a47e3c;}
+.control-group.warning .fileupload .thumbnail{border-color:#a47e3c;}
+.control-group.error .fileupload .uneditable-input{color:#b94a48;border-color:#b94a48;}
+.control-group.error .fileupload .fileupload-preview{color:#b94a48;}
+.control-group.error .fileupload .thumbnail{border-color:#b94a48;}
+.control-group.success .fileupload .uneditable-input{color:#468847;border-color:#468847;}
+.control-group.success .fileupload .fileupload-preview{color:#468847;}
+.control-group.success .fileupload .thumbnail{border-color:#468847;}
+.uneditable-input {
+   border: 1px solid #ccc; height: 35px; padding: 6px 10px; width: 280px; overflow: hidden;
+   -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; }
+.uneditable-input .glyphicon { float: left; margin-right: 5px; vertical-align: middle; margin-top: 2px; opacity: 0.5; }
+.fileupload-preview { width: 400px; display: block; color: #666; }
+.fileupload-preview {
+    float: left;
+    width: 229px;
+}
+
+.urgentJob {
+    padding-left: 22px;
+    cursor: pointer;
+}
+.companyLogo {
+    margin: 0 auto !important;
+}
+.mce {
+    display: none;
+}
+.mce-tinymce {
+    margin-bottom: 15px !important;
+}
+.jobDescription {
+    margin-top: 30px;
+}
+.jobImage {
+    width: 300px;
+}
+.quoteContainer {
+    padding: 30px 0px;
+}
+.quoteMessage {
+    margin-top: 15px;
+}
+#jobs .data-row {
+    cursor: pointer;
+}
+.usersQuotes {
+    height: 300px;
+    max-height: 300px;
+    overflow: auto;
+}
+.quote {
+    min-height: 50px;
+}

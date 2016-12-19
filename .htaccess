@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteRule ^home$ /crm/tradeworthy/index.php [L]
+RewriteRule ^add-job$ /crm/tradeworthy/post-job.php [L]
+RewriteRule ^view-jobs$ /crm/tradeworthy/index.php [L]
+RewriteRule ^my-jobs$ /crm/tradeworthy/index.php [L]
+RewriteRule ^edit-details$ /crm/tradeworthy/settings.php [L]
+RewriteRule ^change-password$ /crm/tradeworthy/change-password.php [L]
+RewriteRule ^logout$ /crm/tradeworthy/logout.php [L]
+RewriteRule ^register$ /crm/tradeworthy/register.php [L]
+RewriteRule ^login$ /crm/tradeworthy/login.php [L]
+RewriteRule ^docs$ /crm/tradeworthy/documentation/index.php [L]
+RewriteRule ^documentation/classes$ /crm/tradeworthy/documentation/classes.php [L]
+RewriteRule ^documentation/functions$ /crm/tradeworthy/documentation/functions.php [L]
