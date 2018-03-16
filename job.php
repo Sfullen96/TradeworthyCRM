@@ -62,10 +62,12 @@ if (Input::exists()) {
 }
 ?>
 <div class="row">
+    <?php if ( isset( $thisJob->logo ) ) { ?>
 	<div class="col-xs-12 col-sm-2 col-md-2">
 		<img src="<?= $thisJob->logo; ?>" class="img-responsive companyLogo">
 	</div>
-	<div class="col-xs-12 col-sm-10 col-md-10">
+    <?php } ?>
+	<div class="col-xs-12 <?php isset( $thisJob->logo ) ? "col-sm-10 col-md-10" : "col-sm-12 col-md-12" ?>">
 		<h2><?= ($thisJob->urgent == 1?'<span style="color: red"> <b>URGENT:</b> </span>':'') ?><?= $thisJob->job_title; ?></h2>
 		<h4> Trade Required: <?= $thisJob->name; ?></h4>
 		<h4> Location: <?= $thisJob->region ?></h4>

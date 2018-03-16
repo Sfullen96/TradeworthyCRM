@@ -57,11 +57,11 @@ class Job {
 				->join('left', 'users', array('users.id', '=', 'jobs.user_id'))
 				->join('left', 'regions', array('regions.id', '=', 'jobs.job_location'))
 				->join('left', 'industries', array('industries.id', '=', 'jobs.trade_required'))
-				->join('left', 'quotes', array('quotes.id', '=', 'jobs.id'))
+				->join('left', 'quotes', array('quotes.quote_id', '=', 'jobs.id'))
 				->where(array('jobs.id', '=', $jobId))
 				->where(array('jobs.active', '=', 1))
 				->get();
-		return $this->_db; 
+		return $this->_db;
 	}
 
 	public function getQuotes($jobId) {
