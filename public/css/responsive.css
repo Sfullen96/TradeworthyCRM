@@ -1,0 +1,8 @@
+@media (min-width: 320px) and (max-width: 480px) {
+	.companyLogo {
+		width: 150px !important;
+	}
+	.left-side-menu {
+		display: none;
+	}
+}
